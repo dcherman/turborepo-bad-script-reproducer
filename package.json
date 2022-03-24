@@ -1,0 +1,16 @@
+{
+  "name": "turborepo-bad-script-reproducer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "turbo": "^1.1.10"
+  },
+  "scripts": {
+    "reproduce": "turbo run test"
+  }
+}

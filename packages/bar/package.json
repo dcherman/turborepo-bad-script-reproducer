@@ -1,0 +1,13 @@
+{
+  "name": "@dcherman/bar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo test",
+    "build": "echo build"
+  },
+  "dependencies": {
+    "@dcherman/foo": "1.0.0"
+  }
+}
